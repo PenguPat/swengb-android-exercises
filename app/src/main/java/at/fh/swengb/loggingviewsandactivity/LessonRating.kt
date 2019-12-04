@@ -1,3 +1,3 @@
 package at.fh.swengb.loggingviewsandactivity
 
-class LessonRating(val ratingValue : Int, val feedback : String)
+class LessonRating(val ratingValue : Double, val feedback : String)

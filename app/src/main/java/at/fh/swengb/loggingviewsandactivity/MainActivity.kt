@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
+import java.time.chrono.HijrahChronology
 
 
 class MainActivity : AppCompatActivity() {
@@ -45,8 +46,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, RatingActivity::class.java)
             startActivity(intent)
         }
+        higher_order.setOnClickListener {
+            val intent = Intent(this, HigherOrderActivityy::class.java)
+            startActivity(intent)
+        }
     }
-
     override fun onStart() {
         super.onStart()
         Log.w("MyActivity", "onStart")
