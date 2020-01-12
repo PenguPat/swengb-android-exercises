@@ -3,11 +3,16 @@ package at.fh.swengb.loggingviewsandactivity
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bumptech.glide.Glide
+import com.squareup.moshi.Moshi
 import kotlinx.android.synthetic.main.activity_lesson_list.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.item_lesson.*
 
 class LessonListActivity : AppCompatActivity() {
     val lessonAdapter = LessonAdapter(){
@@ -23,7 +28,7 @@ class LessonListActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode:Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == ADD_OR_EDIT_RATING_REQUEST && resultCode == Activity.RESULT_OK) {
-            lessonAdapter.updateList(LessonRepository.lessonsList())
+
         }
     }
 
@@ -31,12 +36,50 @@ class LessonListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_list)
+        parseJson()
+        SleepyAsyncTask().execute()
 
-        lessonAdapter.updateList(LessonRepository.lessonsList())
+
+        LessonRepository.lessonsList(
+            success = {
+                lessonAdapter.updateList(it)
+            },
+            error = {
+                Log.e("error",it)
+            }
+        )
+
         lesson_recycler_view.layoutManager = LinearLayoutManager(this)
         lesson_recycler_view.adapter = lessonAdapter
 
         }
+
+    fun parseJson() {
+        val moshi = Moshi.Builder().build()
+        val jsonAdapter = moshi.adapter<Lesson>(Lesson::class.java)
+        val json = """
+            {
+                "id": "1",
+                "name": "Lecture 0",
+                "date": "09.10.2019",
+                "topic": "Introduction",
+                "type": "LECTURE",
+                "lecturers": [
+                    {
+                        "name": "Lukas Bloder"
+                    },
+                    {
+                        "name": "Sanja Illes"
+                    }
+                ],
+                "ratings": [],
+                "imageUrl" : ""
+            }
+        """
+        val result = jsonAdapter.fromJson(json)
+        Log.e("Hallo", "$result")
+    }
+
     }
 
 

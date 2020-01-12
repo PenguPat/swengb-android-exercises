@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoggingViewsAndActivity</string>
+    <string name="Share">Teilen</string>
+    <string name="Logout">Ausloggen</string>
+    <string name="Start">Starten</string>
+</resources>

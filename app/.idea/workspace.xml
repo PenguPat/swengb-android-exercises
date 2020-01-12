@@ -12,106 +12,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/at/fh/swengb/loggingviewsandactivity/Lesson.kt" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae792bb-0878-46c2-a197-ffc91f6a1221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/androidTest/java/at/fh/swengb/kotlinandclasses/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Circle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Dragon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Lion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/LivingThing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Rectangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Shape.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/java/at/fh/swengb/kotlinandclasses/Square.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/app/src/test/java/at/fh/swengb/kotlinandclasses/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KotlinAndClasses/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/androidTest/java/at/fh/swengb/pranger/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/Movie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/MovieAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/MovieGenre.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/MovieOverviewActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/MovieRatingActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/MovieRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/java/at/fh/swengb/pranger/Review.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/layout/activity_movie_overview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/layout/activity_movie_rating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/layout/item_movie.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/app/src/test/java/at/fh/swengb/pranger/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieReview/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9ae792bb-0878-46c2-a197-ffc91f6a1221" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,7 +341,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31400436" />

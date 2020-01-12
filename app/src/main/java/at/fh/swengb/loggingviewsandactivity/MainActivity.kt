@@ -46,10 +46,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, RatingActivity::class.java)
             startActivity(intent)
         }
-        higher_order.setOnClickListener {
+        /*higher_order.setOnClickListener {
             val intent = Intent(this, HigherOrderActivityy::class.java)
             startActivity(intent)
-        }
+        }*/
     }
     override fun onStart() {
         super.onStart()

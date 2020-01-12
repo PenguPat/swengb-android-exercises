@@ -1,4 +1,4 @@
-package at.fh.swengb.loggingviewsandactivity
+/*package at.fh.swengb.loggingviewsandactivity
 
 import android.os.Bundle
 import android.util.Log
@@ -49,3 +49,4 @@ class HigherOrderActivityy : AppCompatActivity() {
 }
 
 
+*/
