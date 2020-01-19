@@ -7,7 +7,10 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_lesson_rating2.*
+import kotlinx.android.synthetic.main.item_lesson.view.*
+import java.math.RoundingMode
 
 class LessonRatingActivity : AppCompatActivity() {
     var lessonName : String? = null
@@ -26,12 +29,24 @@ class LessonRatingActivity : AppCompatActivity() {
                 success = {
                    lesson_rating_header.text = it.name
                     lessonName = it.name
+
+                    Glide
+                        .with(imageView)
+                        .load(it.imageUrl)
+                        .into(imageView)
+
+                    item_lesson_avg_rating_bar.rating = it.ratingAverage().toFloat()
+                    item_lesson_avg_rating_value.text = it.ratingAverage().toBigDecimal().setScale(2, RoundingMode.CEILING).toString()
+                    comment.text = it.ratings.filter { it.feedback != "" }.joinToString { it.feedback }
+
                 },
                 error = {
                     Log.e("Error", it)
                 })
 
             rate_lesson.setOnClickListener{
+
+
                 val myRating = lesson_rating_bar.rating.toDouble()
                 val myFeedback = lesson_feedback.text.toString()
 

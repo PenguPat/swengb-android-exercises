@@ -3,4 +3,7 @@
     <string name="Share">Teilen</string>
     <string name="Logout">Ausloggen</string>
     <string name="Start">Starten</string>
+    <string name="Lesson">Lehreinheit</string>
+    <string name="View">Ansicht</string>
+    <string name="Rating">Bewerten</string>
 </resources>

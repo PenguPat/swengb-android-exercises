@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_lesson.*
 import kotlinx.android.synthetic.main.item_lesson.view.*
+import java.math.RoundingMode
 
 class LessonAdapter(val clickListener: (lesson: Lesson) -> Unit): RecyclerView.Adapter<LessonViewHolder>() {
 
@@ -46,7 +47,7 @@ class LessonViewHolder(itemView: View, val clickListener: (lesson: Lesson) -> Un
         itemView.item_lesson_topic.text =lesson.topic
         itemView.item_lesson_lecturers.text = lesson.lecturers.joinToString { it.name }
         itemView.item_lesson_avg_rating_bar.rating = lesson.ratingAverage().toFloat()
-        itemView.item_lesson_avg_rating_value.text = lesson.ratingAverage().toString()
+        itemView.item_lesson_avg_rating_value.text = lesson.ratingAverage().toBigDecimal().setScale(2, RoundingMode.CEILING).toString()
         itemView.item_lesson_avg_rating_count.text = lesson.ratings.count().toString()
 
         itemView.setOnClickListener {

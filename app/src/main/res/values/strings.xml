@@ -3,4 +3,7 @@
     <string name="Share">Share</string>
     <string name="Logout">Logout</string>
     <string name="Start">Start</string>
+    <string name="Lesson">Lesson</string>
+    <string name="View">View</string>
+    <string name="Rating">Rating</string>
 </resources>

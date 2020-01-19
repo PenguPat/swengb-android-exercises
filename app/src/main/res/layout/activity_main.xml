@@ -18,33 +18,37 @@
 
         <Button
             android:id="@+id/share_main"
+            style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Share" />
+            android:text="@string/Share" />
 
         <Button
             android:id="@+id/open_views"
+            style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Views" />
+            android:text="@string/View" />
 
         <Button
             android:id="@+id/open_rating"
+            style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Rating" />
+            android:text="@string/Rating" />
     </LinearLayout>
 
     <Button
         android:id="@+id/open_lesson"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="160dp"
-        android:text="Lesson"
+        android:text="@string/Lesson"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -52,6 +56,8 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="w,16:9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
